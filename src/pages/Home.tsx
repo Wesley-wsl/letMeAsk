@@ -30,7 +30,7 @@ export function Home() {
         event.preventDefault()
 
 
-        if(roomCode.trim() == '') {
+        if(roomCode.trim() === '') {
             return
         }
 
