@@ -9,6 +9,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
 
             > img {
                 max-height: 45px;
@@ -17,6 +18,7 @@
             > div {
                 display: flex;
                 gap: 16px;
+                flex-wrap: wrap;
 
                 button {
                     height: 40px;
